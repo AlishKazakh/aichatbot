@@ -10,7 +10,7 @@ bot = telebot.TeleBot(config.TOKEN)
 def bot_answer(message):
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'YOUR_CREDENTIALS'
 
-    DIALOGFLOW_PROJECT_ID = 'alishtelegram-nkmm'
+    DIALOGFLOW_PROJECT_ID = 'YOUR_PROJECT_ID'
     DIALOGFLOW_LANGUAGE_CODE = 'en'
     SESSION_ID = 'abc'
 
